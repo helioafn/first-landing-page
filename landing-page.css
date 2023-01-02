@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -16,11 +21,12 @@ a {
 
 header {
     display: flex;
-    border: 2px solid red;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 20px;
     background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 header a {
@@ -43,11 +49,9 @@ header a {
 }
 
 .signup {
-    border: 2px solid red;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    height: 500px;
+    gap: 30px;
     padding: 10px;
     background-color: #1f2937;
     font-size: 18px;
@@ -59,18 +63,25 @@ header a {
     border-radius: 8px;
     border: 2px solid #3882f6;
     padding: 5px 16px;
+    color:#f9faf8;
 }
 
 .signup-item {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    gap: 10px;
 }
 
 .signup-item h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
+}
+
+.signup-item p {
+    margin: 0;
 }
 
 .cat-image {
@@ -87,17 +98,37 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    padding: 20px 0;
+}
+
+.images>h2 {
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .quote {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
+    background-color: #efe7eb;
+    padding: 20px 0;
+}
+
+.hero {
+    display: flex;
     flex-direction: column;
-    border: 2px solid red;
-    background-color: gray;
-    height: 500px;
+}
+
+.hero cite {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 18px;
+    text-align: end;
+    color: #1f2937;
 }
 
 .images-grid {
@@ -110,33 +141,40 @@ header a {
 }
 
 .card img {
-    border: 2px solid lightblue;
     border-radius: 10px;
-}
-
-.hero {
-    display: flex;
 }
 
 .bottom-signup {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    padding: 20px 0;
 }
 
 .bottom-signup-banner {
     display: flex;
     gap: 40px;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    padding: 30px 50px;
+    color: #f9faf8;
 }
 
 .bottom-signup-banner button {
     border: 2px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 16px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    padding: 20px;
+    font-size: 18px;
+    color: #f9faf8;
 }
