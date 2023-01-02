@@ -1,0 +1,142 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1f2937;
+}
+
+header a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo {
+    width: 150px;
+}
+
+.signup,
+.signup-item {
+    display: flex;
+}
+
+.signup {
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 500px;
+    padding: 10px;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-item button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+    padding: 5px 16px;
+}
+
+.signup-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.signup-item h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.cat-image {
+    height: 275px;
+}
+
+.images,
+.images-grid,
+.card {
+    display: flex;
+}
+
+.images {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: gray;
+    height: 500px;
+}
+
+.images-grid {
+    gap: 20px;
+    text-align: center;
+}
+
+.card {
+    flex-direction: column;
+}
+
+.card img {
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+}
+
+.bottom-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.bottom-signup-banner {
+    display: flex;
+    gap: 40px;
+}
+
+.bottom-signup-banner button {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
